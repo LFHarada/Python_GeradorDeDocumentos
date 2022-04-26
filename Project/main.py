@@ -1,4 +1,5 @@
 from geradores.cpf import *
+from geradores.cnpj import *
 
 print("Bem vindo ao gerador de documentos!")
 print("-----------------------------------")
@@ -30,7 +31,7 @@ def option1():
 
 
 def option2():
-    pass
+    gerador_cnpj()
 
 
 def option3():
