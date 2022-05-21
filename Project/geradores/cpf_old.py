@@ -30,12 +30,10 @@ def gerador_cpf():
 
         # Escolha estado específico ou aleatório
         if escolha:
-            if escolha in range(0, 9):
+            if 0 <= escolha <= 9:
                 dig9 = escolha
             if escolha == 10:
                 dig9 = randint(0, 9)
-        else:
-            pass
 
         # Primeiro dígito verificador
         multdig10 = ((dig1*10)+(dig2*9)+(dig3*8)+

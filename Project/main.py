@@ -1,4 +1,4 @@
-from geradores.cpf import *
+from geradores.cpf_old import *
 from geradores.cnpj import *
 
 print("Bem vindo ao gerador de documentos!")
